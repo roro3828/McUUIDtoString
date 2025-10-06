@@ -1,3 +1,6 @@
+## Copyright (c) 2025 ろろ (https://roro.ro)
+## This software is released under the MIT License, see LICENSE.
+
 #UUID16bitにセットされている16bitの値を16進数に変換する
 
 execute if score #UUID16bit uuid_to_string.UUID matches ..-1 run scoreboard players operation #UUID16bit uuid_to_string.UUID += #-2147483648 uuid_to_string.Number

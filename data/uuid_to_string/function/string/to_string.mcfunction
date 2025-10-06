@@ -1,3 +1,6 @@
+## Copyright (c) 2025 ろろ (https://roro.ro)
+## This software is released under the MIT License, see LICENSE.
+
 # uuid_to_string: UUID にセットされたUUIDを文字列にして uuid_to_string: UUIDStr にセットする
 
 data modify storage uuid_to_string:tmp concat set value {text:"",add:""}
